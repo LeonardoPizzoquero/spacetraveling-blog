@@ -1,1 +1,25 @@
-// TODO
+.container {
+  max-width: 764px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.postInformation {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+
+  time, span {
+    display: flex;
+    align-items: center;
+    color: var(--gray-500);
+
+    > svg {
+      margin-right: 0.5rem;
+    }
+  }
+
+  span {
+    margin-left: 1.5rem;
+  }
+}
